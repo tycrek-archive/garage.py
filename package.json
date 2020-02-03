@@ -1,0 +1,30 @@
+{
+  "name": "doorway",
+  "version": "0.1.0",
+  "description": "A Twilio based control panel",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tycrek/Doorway.git"
+  },
+  "author": "Joshua Moore",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/tycrek/Doorway/issues"
+  },
+  "homepage": "https://github.com/tycrek/Doorway#readme",
+  "dependencies": {
+    "extend": "^3.0.2",
+    "lodash": "^4.17.11",
+    "node-cmd": "^3.0.0",
+    "onoff": "^4.1.1",
+    "psl": "^1.1.31",
+    "request": "^2.88.0",
+    "safe-buffer": "^5.1.2",
+    "tough-cookie": "^3.0.1",
+    "twilio": "^3.29.0"
+  }
+}
